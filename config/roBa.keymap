@@ -102,10 +102,10 @@
 
         MAC {
             bindings = <
-&kp Q               &kp W             &kp E         &kp R           &kp T                                               &kp Y    &kp U  &kp I      &kp O    &kp P
-&mt LEFT_CONTROL A  &kp S             &kp D         &kp F           &kp G        &mkp MB3                &kp ESC        &kp H    &kp J  &kp K      &kp L    &kp RETURN
-&mt LEFT_SHIFT Z    &kp X             &kp C         &kp V           &lt 6 B      &kp DEL                 &kp TAB        &kp N    &kp M  &kp COMMA  &kp DOT  &kp MINUS
-&kp LEFT_COMMAND    &kp LEFT_COMMAND  &kp LEFT_ALT  &kp INT_HENKAN  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE  &kp DEL                             &kp LS(TAB)
+&kp Q               &kp W           &kp E         &kp R           &kp T                                               &kp Y    &kp U  &kp I      &kp O    &kp P
+&mt LEFT_CONTROL A  &kp S           &kp D         &kp F           &kp G        &mkp MB3                &kp ESC        &kp H    &kp J  &kp K      &kp L    &kp RETURN
+&mt LEFT_SHIFT Z    &kp X           &kp C         &kp V           &lt 6 B      &kp DEL                 &kp TAB        &kp N    &kp M  &kp COMMA  &kp DOT  &kp MINUS
+&kp LEFT_COMMAND    &kp LEFT_SHIFT  &kp LEFT_ALT  &kp INT_HENKAN  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE  &kp DEL                             &kp LS(TAB)
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -122,10 +122,10 @@
 
         ARROW_SIMBOL {
             bindings = <
-&kp ESCAPE        &trans          &kp UP_ARROW    &kp LESS_THAN    &kp GREATER_THAN                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DQT    &kp PIPE
-&kp LEFT_ALT      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp HASH          &kp PLUS          &kp DLLR       &kp LBRC              &kp RBRC               &kp COLON         &kp SEMI   &kp SLASH
-&kp LS(LEFT_ALT)  &trans          &trans          &kp EXCLAMATION  &kp QUESTION      &kp ASTERISK      &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &kp UNDER  &kp BACKSLASH
-&trans            &trans          &trans          &trans           &trans            &trans            &trans         &trans                                                                    &kp AT_SIGN
+&kp ESCAPE        &trans            &kp UP_ARROW    &kp LESS_THAN    &kp GREATER_THAN                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DQT    &kp PIPE
+&kp LEFT_ALT      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL         &kp PLUS          &kp DLLR       &kp LBRC              &kp RBRC               &kp COLON         &kp SEMI   &kp SLASH
+&kp LS(LEFT_ALT)  &trans            &kp HASH        &kp EXCLAMATION  &kp QUESTION      &kp ASTERISK      &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &kp UNDER  &kp BACKSLASH
+&kp LEFT_COMMAND  &kp LEFT_CONTROL  &trans          &trans           &trans            &trans            &trans         &trans                                                                    &kp AT_SIGN
             >;
         };
 
