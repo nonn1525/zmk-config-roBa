@@ -122,10 +122,10 @@
 
         ARROW_SIMBOL {
             bindings = <
-&kp ESCAPE        &trans            &kp UP_ARROW    &kp LESS_THAN    &kp GREATER_THAN                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DQT    &kp PIPE
-&kp LEFT_ALT      &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL         &kp PLUS          &kp DLLR       &kp LBRC              &kp RBRC               &kp COLON         &kp SEMI   &kp SLASH
-&kp LS(LEFT_ALT)  &kp GRAVE         &kp HASH        &kp EXCLAMATION  &kp QUESTION      &kp ASTERISK      &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &kp UNDER  &kp BACKSLASH
-&kp TAB           &kp LEFT_CONTROL  &trans          &trans           &trans            &trans            &trans         &trans                                                                    &kp AT_SIGN
+&kp ESCAPE        &trans          &kp UP_ARROW    &kp LESS_THAN    &kp GREATER_THAN                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DQT       &kp PIPE
+&kp LEFT_ALT      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL         &trans         &kp DLLR       &kp LBRC              &kp RBRC               &kp COLON         &kp SEMI      &kp SLASH
+&kp LS(LEFT_ALT)  &trans          &kp HASH        &kp ASTERISK     &kp PLUS          &kp GRAVE      &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION   &kp QUESTION  &kp BACKSLASH
+&kp TAB           &kp LEFT_SHIFT  &trans          &trans           &trans            &trans         &trans         &trans                                                                       &kp AT_SIGN
             >;
         };
 
